@@ -1,4 +1,8 @@
 #include "SoundBankWriter.h"
+#include <algorithm>
+#include <iterator>
+#include <numeric>
+#include <ranges>
 
 #include "Cryptography.h"
 #include "ObjContainer/SoundBank/SoundBankTypes.h"

@@ -1,4 +1,6 @@
 #include "InfoString.h"
+#include <algorithm>
+#include <ranges>
 
 #include "Utils/Logging/Log.h"
 #include "Utils/StringUtils.h"

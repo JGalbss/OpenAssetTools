@@ -1,4 +1,8 @@
 #include "CommonTechniqueDumper.h"
+#include <algorithm>
+#include <iterator>
+#include <numeric>
+#include <ranges>
 
 #include "Dumping/AbstractTextDumper.h"
 #include "Shader/D3D11ShaderAnalyser.h"
