@@ -1,4 +1,8 @@
 #include "AbstractMaterialConstantZoneState.h"
+#include <algorithm>
+#include <iterator>
+#include <numeric>
+#include <ranges>
 
 #include "ObjWriting.h"
 #include "Shader/D3D11ShaderAnalyser.h"

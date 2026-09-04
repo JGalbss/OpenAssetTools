@@ -99,7 +99,7 @@ namespace
         if (numIndices >= numLoopFrames)
         {
             indices.resize(numIndices);
-            std::ranges::iota(indices, 0);
+            std::iota(indices.begin(), indices.end(), static_cast<size_t>(0));
         }
         else if (useByteIndices)
         {

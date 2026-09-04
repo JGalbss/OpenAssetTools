@@ -1,4 +1,7 @@
 #include "CollisionTreeCreator.h"
+#include <iterator>
+#include <numeric>
+#include <ranges>
 
 #include "Utils/Logging/Log.h"
 
@@ -94,7 +97,7 @@ namespace
             m_sorted_maxs = std::vector<float>(m_items.size());
             m_sorted_coplanar = std::vector<float>(m_items.size());
 
-            std::ranges::iota(remap, 0);
+            std::iota(remap.begin(), remap.end(), static_cast<size_t>(0));
 
             // Insert root node
             m_nodes.emplace_back(GenericAabbTree{

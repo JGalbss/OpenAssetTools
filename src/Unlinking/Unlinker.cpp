@@ -1,4 +1,5 @@
 #include "Unlinker.h"
+#include <sstream>
 
 #include "ContentLister/ContentPrinter.h"
 #include "Game/AutoSearchPaths.h"

@@ -1,4 +1,6 @@
 #include "Csv/CsvHeaderRow.h"
+#include <algorithm>
+#include <ranges>
 
 CsvHeaderRow::CsvHeaderRow() = default;
 
